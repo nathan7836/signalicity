@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Signalicity",
+    "slug": "signalicity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "signalicity",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#2563EB",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.signalicity.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "L'application a besoin d'acceder a votre camera pour prendre une photo du signalement.",
+        "NSLocationWhenInUseUsageDescription": "L'application a besoin de votre position pour localiser le signalement.",
+        "NSPhotoLibraryUsageDescription": "L'application a besoin d'acceder a votre galerie pour joindre une photo au signalement."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2563EB"
+      },
+      "package": "com.signalicity.app",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      "expo-image-picker",
+      "expo-location",
+      "expo-notifications",
+      "expo-font"
+    ]
+  }
+}
