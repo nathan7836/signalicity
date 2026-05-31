@@ -4,6 +4,8 @@ Municipal citizen reporting platform for **Croissy-sur-Seine** (~10,000 inhabita
 
 Signalicity enables residents to report public space incidents (road damage, street lighting, cleanliness, green spaces...) and municipal staff to manage, track, and resolve them efficiently — powered by AI.
 
+![Signalicity Dashboard](docs/screenshot-dashboard.png)
+
 ## Features
 
 **Citizens**
